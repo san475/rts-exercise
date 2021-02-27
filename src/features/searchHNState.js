@@ -1,6 +1,6 @@
 
 const initialState = {
-    query: 'initialState',
+    query: '',
     hits: []
 }
 
@@ -12,7 +12,6 @@ const searchHNStateReducer = (state = initialState, action) => {
         case 'PUT_HITS':
             return {...state, hits: action.hits}
         default:
-            console.log('hit nothing')
     }
 
     return state;
