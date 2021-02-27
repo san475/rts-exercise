@@ -1,0 +1,57 @@
+.search {
+  margin-top: 2em;
+  text-align: center;
+ 
+ }
+ .query-hit {
+   display: flex;
+   width: fit-content;
+   flex-direction: column;
+   margin-bottom: 2em;
+   background: #DDD;
+ }
+ .query-hit h3{
+   margin-top: 0;
+ }
+ .query-hit-header
+ {
+   display: flex;
+   width: 50%;
+   height: 100%;
+   flex-direction: row;
+   justify-content: space-between;
+ 
+ }
+ .search {
+  text-align: center;
+ 
+ }
+ .query-hit {
+   padding: 1em;
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   margin-bottom: 2em;
+   background: #DDD;
+ }
+ .query-hit h3{
+   margin-top: 0;
+ }
+ .query-hit-header
+ {
+   display: flex;
+   width: 50%;
+   height: 100%;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+ ul{
+  list-style-type: none;
+}
+
+ 
+ 
+ 
+ 
+
+ 
