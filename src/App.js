@@ -7,5 +7,4 @@ function App() {
     <SearchHackerNews/>
   );
 }
-
 export default App;
